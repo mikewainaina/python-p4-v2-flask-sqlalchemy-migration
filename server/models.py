@@ -20,7 +20,6 @@ class Employee(db.Model):
     def __repr__(self):
         return f'<Employee {self.id}, {self.name}, {self.salary}>'
 
-
 class Department(db.Model):
     __tablename__ = 'departments'
 
